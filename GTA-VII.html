@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRAND THEFT AUTO</title>
+    <style>
+        * {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        a:link {
+            color: whitesmoke;
+            text-decoration: none;
+            border: 1px solid black;
+            border-radius: 5px; 
+            padding: 10px;
+        }
+
+        a:hover {
+            border: 0;
+            color: hsl(41, 100%, 50%);
+            padding: 11px
+        }
+
+        body {
+            background-image: url(orange\ gradient.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(6, auto);
+            row-gap: 100px;
+        }
+
+        p {
+            color: hsl(0, 0%, 2%);
+        }
+
+        h1 {
+            color: hsl(0, 0%, 2%);
+        }
+
+        nav {
+            grid-column-start: 1;
+            grid-column-end: span 2;
+        }
+
+        .content {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+
+        .story {
+            grid-column-start: 1;
+            grid-column-end: span 2;
+        }
+
+        .haos-corner {
+            grid-column-start: 1;
+            grid-column-end: span 2;
+        }
+
+    </style>
+</head>
+<body>
+    <nav style="height: 100px; background-color: hsl(0, 0%, 2%); display: inline-flex; width: 100%; border-radius: 10px;">
+        <img class="website-logo" src="rockstar_games_logo no bg.png" alt="NOT AVAILABLE" style="height: 80px; align-self: center;">
+        <a href="#" style="margin: 15px; align-self: center;">OVERVIEW</a>
+        <a href="#" style="margin: 15px; align-self: center;">STORY</a>
+        <a href="#" style="margin: 15px; align-self: center;">COMMUNITY</a>
+        <a href="#" style="margin: 15px; align-self: center;">BUY NOW</a>
+        <img class="login" src="no pfp logo no bg.png" alt="NOT AVAILABLE" style="height: 40px; align-self: center;">
+        <p style="color: whitesmoke; align-self: center;">LOGIN</p>
+    </nav>
+    <div class="content" style="margin-top: 40px;">
+        <h1 style="font-size: 50px;">Now available for PlayStation 5, Xbox Series X|S, and PC</h1>
+        <p style="font-size: 30px;">Experience entertainment blockbusters, Grand Theft Auto V and GTA Online.</p>
+        <a class="learn-more" href="#">LEARN MORE</a>
+    </div>
+
+    <div class="vid" style="display: inline-flex; justify-self: end;">
+        <video src="gta-trailer.mp4" autoplay loop controls muted width="800px" height="450px" style="border: 1px solid whitesmoke;"></video>
+    </div>
+
+    <div class="story" style="width: 600px; justify-self: center; justify-items: center; margin-top: 80px;">
+        <h1 style="font-size: 50px;">Welcome to Los Santos</h1>
+        <p style="font-size: 25px; text-align: center; margin-top: 60px;">When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government, and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody — least of all each other.</p>
+        <p style="font-size: 25px; text-align: center;">GTAV players on PC can migrate their Story Mode progress and GTA Online characters and progression to the newly upgraded version. Players on PlayStation 4 or Xbox One can also transfer both Story Mode and Online progress to PlayStation 5 or Xbox Series X|S with a one-time migration.</p>
+    </div>
+
+    <div class="haos-corner" style="display: flex; align-items: center; flex-direction: column;">
+        <img src="Screenshot 2026-02-19 213326.png" alt="NOT AVAILABLE" width="1200px" style="border-radius: 5px;">
+        <h1 style="font-size: 50px;">Exclusive new content</h1>
+        <p style="font-size: 30px; width: 800px;">Step into Hao’s Special Works at the Los Santos Car Meet, featuring elite new upgrades and exclusive modifications. Then take these high-performance vehicles into HSW races, new time trials, and more.</p>
+    </div>
+</body>
+</html>
