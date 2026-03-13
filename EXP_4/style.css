@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8F0;
+}
+
+.backdrop {
+    width: 800px;
+}
