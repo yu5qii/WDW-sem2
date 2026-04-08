@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+.container {
+    border: solid 1px ;
+    border-radius: 10px;
+    margin-top: 15%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 236, 250);
+    box-shadow: 0 0 10px rgb(101, 101, 161);
+}
+
+.container * {
+    margin: 5px;
+}
+
+#userinput {
+    margin-top: 20px;
+    height: 20px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: double 2px grey;
+    color: rgb(39, 39, 71);
+}
+
+h2 {
+    font-size: 30px;
+}
