@@ -1,7 +1,7 @@
 function calculateresult() {
     let n = document.getElementById("subjects").value;
     
-    if (n <= 0) {
+    if (n < 1) {
         alert("Please enter a valid number of subjects.");
         return;
     }
